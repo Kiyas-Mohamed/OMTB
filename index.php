@@ -7,9 +7,9 @@
     <title>Online Movie Ticket Booking - Home</title>
 
     <!-- Link The Custom CSS -->
-    <link rel="stylesheet" href="general/main_assets/css/custom.css">
+    <link rel="stylesheet" href="general/main/assets/css/custom.css">
     <!-- Link The Bootstrap CSS -->
-    <link rel="stylesheet" href="general/main_assets/plugins/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="general/main/assets/plugins/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 </head>
 
 <body>
