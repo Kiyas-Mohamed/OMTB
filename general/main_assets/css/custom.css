@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #eee !important;
+}
+
+h3 {
+    margin-top: 10px !important;
+}
+
+span {
+    color: red;
+    font-weight: 500;
+}
