@@ -1,0 +1,28 @@
+OMTB Database ER Structure : 
+
+Total Tables => users, movies, bookings
+
+users :
+user_id (int, 11, auto-incrementing, primary key)
+first_name (varchar, 60)
+last_name (varchar, 60)
+email (varchar, unique, 100)
+phone (varchar, 10)
+
+movies :
+movie_id (int, 11, auto-incrementing, primary key)
+title (varchar, 100)
+description (longtext, 155)
+duration (varchar, 20)
+date (varchar, 20)
+time (varchar, 20)
+categories (varchar, 60)
+language (varchar, 60)
+actor_name (varchar, 100)
+ticket_price (decimal, 8.2)
+image (longtext, 155)
+
+bookings :
+booking_id (int, 11, auto-incrementing, primary key)
+user_id (int, 11, foreign key referencing users)
+movie_id (int, 11, foreign key referencing movies)
